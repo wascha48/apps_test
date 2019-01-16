@@ -5,4 +5,4 @@ chars = ascii_letters + digits
 def pd(n):
 	return ''.join(choice(chars) for _ in range(n))
 
-print(pd(10))
+print(pd(14))
